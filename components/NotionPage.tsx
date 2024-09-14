@@ -216,12 +216,12 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }
 
   const title = getPageProperty<string>('SEOTitle', block, recordMap) || site.seotitle || getBlockTitle(block, recordMap) || site.name
-  
+
   const date = new Date()
   const today = date.toISOString()
-  const date2 = new Date(getPageProperty<string>('SEOCreatedDate', block, recordMap)) 
-  const date3 = new Date(getPageProperty<string>('SEOUpdatedDate', block, recordMap)) 
-  
+  const date2 = new Date(getPageProperty<string>('SEOCreatedDate', block, recordMap))
+  const date3 = new Date(getPageProperty<string>('SEOUpdatedDate', block, recordMap))
+
   const SEOCreatedDate = date2.toISOString() ?? today
   const SEOUpdatedDate = date3.toISOString() ?? today
 
@@ -255,7 +255,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('MetaDescription', block, recordMap) ||
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
-  
+
   return (
     <>
       <PageHead
@@ -266,10 +266,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
         image={socialImage}
         url={canonicalPageUrl}
       />
-      
+
       <Head>
-            <meta property="article:published_time" content={SEOCreatedDate} /> 
-            <meta property="article:modified_time" content={SEOUpdatedDate} />        
+            <meta property="article:published_time" content={SEOCreatedDate} />
+            <meta property="article:modified_time" content={SEOUpdatedDate} />
         {socialImage ? (
           <>
             <meta name='twitter:card' content='summary_large_image' />
@@ -279,7 +279,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         ) : (
           <meta name='twitter:card' content='summary' />
         )}
-      </Head>       
+      </Head>
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
       {isDarkMode && <BodyClassName className='dark-mode' />}

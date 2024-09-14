@@ -2,25 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7167d2cf133a4875b7e23caf545ee402',
+  rootNotionPageId: '101cc9815b6f8088bee4d44201d385df',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
+  name: 'fillit',
   domain: 'demo.wr8.in',
-  author: 'Mighil',
-  seotitle: 'Demo Site Created with wr8',
+  author: 'parksisi',
+  seotitle: 'fillit',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: '쿠팡, 알리 등 이커머스 사이트 리뷰를 요약해 보여주고 제휴 링크를 제공하는 제휴마케팅 사이트 입니다.',
 
   // social usernames (optional)
-  twitter: 'jotzilla',
-  github: 'verfasor',
-  linkedin: 'mighil',
+  // twitter: 'jotzilla',
+  // github: 'verfasor',
+  // linkedin: 'mighil',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -51,18 +51,10 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
-  navigationLinks: [   
+  navigationLinks: [
     {
       title: 'Blog',
-      pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
-    },    
-    {
-      title: 'About',
-      pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
+      pageId: 'f58359830f804d7dbcc65256e9adaa11'
     },
-    {
-      title: 'Contact',
-      pageId: '5f7e562fef814299b10c68c52e920c9a'
-    }
   ]
 })
