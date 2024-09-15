@@ -53,7 +53,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Blog',
+      title: '헬스보충제',
       pageId: 'f58359830f804d7dbcc65256e9adaa11'
     },
   ]
