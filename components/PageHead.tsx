@@ -31,6 +31,7 @@ export const PageHead: React.FC<
       <meta property='og:image' content={config.ogImageUrl} />
 
       <meta name="naver-site-verification" content="eeec7a87130a94ff3e8ea0f6f90289cb7be0311d" />
+      <meta name="google-site-verification" content="_a3ncaYY7vm5zkquRP8wmax6yCRkIwpQ48WlQ3bKCp8" />
 
       {site && (
         <>
