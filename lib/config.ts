@@ -76,6 +76,11 @@ export const defaultPageCoverPosition: number = getSiteConfig(
   0.5
 )
 
+export const ogImageUrl: string | null = getSiteConfig(
+  'ogImageUrl',
+  null
+)
+
 // Optional whether or not to enable support for LQIP preview images
 export const isPreviewImageSupportEnabled: boolean = getSiteConfig(
   'isPreviewImageSupportEnabled',

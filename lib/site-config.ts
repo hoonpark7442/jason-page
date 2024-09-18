@@ -22,6 +22,8 @@ export interface SiteConfig {
   defaultPageCover?: string | null
   defaultPageCoverPosition?: number | null
 
+  ogImageUrl?: string
+
   isPreviewImageSupportEnabled?: boolean
   isTweetEmbedSupportEnabled?: boolean
   isRedisEnabled?: boolean

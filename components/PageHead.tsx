@@ -28,6 +28,9 @@ export const PageHead: React.FC<
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
+      <meta property='og:image' content={config.ogImageUrl} />
+
+      <meta name="naver-site-verification" content="eeec7a87130a94ff3e8ea0f6f90289cb7be0311d" />
 
       {site && (
         <>
@@ -47,7 +50,7 @@ export const PageHead: React.FC<
           <meta name='twitter:description' content={description} />
         </>
       )}
-      
+
       {url && (
         <>
           <link rel='canonical' href={url} />

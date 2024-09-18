@@ -30,6 +30,9 @@ export default siteConfig({
   defaultPageCover: 'https://www.fiilit.co.kr/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
+  // og img
+  ogImageUrl: 'https://www.fiilit.co.kr/og_img.png',
+
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
 
