@@ -9,10 +9,10 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'fillit',
-  domain: 'demo.wr8.in',
+  name: 'fiilit',
+  domain: 'fiilit.co.kr',
   author: 'parksisi',
-  seotitle: 'fillit',
+  seotitle: '리뷰를 한 눈에, fiilit',
 
   // open graph metadata (optional)
   description: '쿠팡, 알리 등 이커머스 사이트 리뷰를 요약해 보여주고 제휴 링크를 제공하는 제휴마케팅 사이트 입니다.',
@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
+  defaultPageIcon: 'https://www.fiilit.co.kr/page-icon.png',
+  defaultPageCover: 'https://www.fiilit.co.kr/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
