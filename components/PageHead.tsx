@@ -30,7 +30,7 @@ export const PageHead: React.FC<
       <meta property='og:type' content='website' />
       <meta property='og:image' content={config.ogImageUrl} />
 
-      <meta name="naver-site-verification" content="eeec7a87130a94ff3e8ea0f6f90289cb7be0311d" />
+      <meta name="naver-site-verification" content="62308c3233230b99cab7e1009fd92f2b7172605e" />
       <meta name="google-site-verification" content="_a3ncaYY7vm5zkquRP8wmax6yCRkIwpQ48WlQ3bKCp8" />
 
       {site && (
