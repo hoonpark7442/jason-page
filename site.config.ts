@@ -2,20 +2,20 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '108cc9815b6f8084970bf792ff14234b',
+  rootNotionPageId: '1089229ea75380f99292d660af157b7c',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'fiilit',
-  domain: 'fiilit.co.kr',
-  author: 'parksisi',
-  seotitle: '리뷰를 한 눈에, fiilit',
+  name: 'k-beuty & wellbeing',
+  domain: 'jason.fiilit.co.kr',
+  author: 'jason',
+  seotitle: '케이뷰티앤웰빙',
 
   // open graph metadata (optional)
-  description: '쿠팡, 알리 등 이커머스 사이트 리뷰를 요약해 보여주고 제휴 링크를 제공하는 제휴마케팅 사이트 입니다.',
+  description: '한국의 화장품 및 건강식품을 해외로 알립니다.',
 
   // social usernames (optional)
   // twitter: 'jotzilla',
@@ -26,12 +26,12 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://www.fiilit.co.kr/page-icon.png',
-  defaultPageCover: 'https://www.fiilit.co.kr/page-cover.jpg',
+  defaultPageIcon: 'https://json.fiilit.co.kr/page-icon.png',
+  defaultPageCover: 'https://json.fiilit.co.kr/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // og img
-  ogImageUrl: 'https://www.fiilit.co.kr/og_img.png',
+  ogImageUrl: 'https://json.fiilit.co.kr/og_img.png',
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
@@ -57,7 +57,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '운동',
-      pageId: 'fffcc9815b6f81f0913dca1ef7373375'
+      pageId: 'fff9229ea75381ce85cfc3b3e935ca2a'
     },
   ]
 })
